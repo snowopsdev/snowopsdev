@@ -32,7 +32,7 @@
 
 <p align="center">
 
-- 🔎 **[Serql](https://www.serql.io/)** - a better GSC experince
+- 🔎 **[Serql](https://www.serql.io/)** - a better GSC experience
 
 </p>
 

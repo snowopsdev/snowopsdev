@@ -27,3 +27,21 @@
   <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS" />
   <img src="https://img.shields.io/badge/-PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
 </p>
+
+<h2> Currently Building </h2>
+
+<p align="center">
+
+- 🔎 **[Serql](https://www.serql.io/)** - a better GSC experince
+
+</p>
+
+<h3> Recent Contributions </h2>
+
+<p align="center">
+  
+- 🎙️ **[TypeWhisper Mac](https://github.com/TypeWhisper/typewhisper-mac)** - Local speech-to-text for MacOS
+- 🖌️ **[Open CoDesign](https://github.com/OpenCoworkAI/open-codesign)** - Open-source Claude Design alternative
+
+</p>
+

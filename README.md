@@ -9,17 +9,7 @@
     <img src="https://img.shields.io/twitter/follow/snowopshq?label=Twitter&style=social" alt="X (Twitter)" />
   </a>
   <a href="https://www.linkedin.com/in/ajnieves">
-    <img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn" />
-  </a>
-</p>
-
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0%3A1FA2FF%2C100%3A12D8FA&height=200&section=header&text=Build+%E2%9D%84%EF%B8%8E+Automate+%E2%9D%84%EF%B8%8E+Scale&fontSize=60&fontAlignY=35&fontColor=ffffff"
-    alt="Build ❄︎ Automate ❄︎ Scale"
-  />
-</p>
-
+    <img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linked
 <p align="center">
   <img src="https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -33,6 +23,7 @@
 <p align="center">
 
 - 🔎 **[Serql](https://www.serql.io/)** - A better GSC experience
+- 👨🏻‍💻 **[Snocode](https://github.com/snowopsdev/snocode)**
 
 </p>
 

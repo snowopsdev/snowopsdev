@@ -1,12 +1,8 @@
-<h1 align="center">Hi, I'm Aj ❄️</h1>
+# AJ
 
 <p align="center">
   <br />
-  <a href="https://github.com/snowopsdev">
-    <img src="https://img.shields.io/github/followers/snowopsdev.svg?label=GitHub&style=social" alt="GitHub" />
-  </a>
-  <a href="https://x.com/snowopshq">
-    <img src="https://img.shields.io/twitter/follow/snowopshq?label=Twitter&style=social" alt="X (Twitter)" />
+
   </a>
   <a href="https://www.linkedin.com/in/ajnieves">
     <img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linked

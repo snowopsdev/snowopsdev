@@ -23,7 +23,6 @@
 <p align="center">
 
 - 🔎 **[Serql](https://www.serql.io/)** - A better GSC experience
-- 👨🏻‍💻 **[Snocode](https://github.com/snowopsdev/snocode)**
 
 </p>
 

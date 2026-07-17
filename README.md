@@ -6,7 +6,7 @@
 
 <p align="center">
 
-- 🔎 **[Serql](https://www.serql.io/)** - A better GSC experience
+- **[Serql](https://www.serql.io/)** - Search analytics for data driven teams
 
 </p>
 

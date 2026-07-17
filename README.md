@@ -15,7 +15,7 @@
 <p align="center">
   
 - 🎙️ **[TypeWhisper Mac](https://github.com/TypeWhisper/typewhisper-mac)** - Local speech-to-text for MacOS
-- **[CovenCave]**(https://github.com/OpenCoven/coven-cave)**
+- **[CovenCave](https://github.com/OpenCoven/coven-cave)**
 
 </p>
 

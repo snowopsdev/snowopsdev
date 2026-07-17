@@ -15,7 +15,7 @@
 <p align="center">
   
 - 🎙️ **[TypeWhisper Mac](https://github.com/TypeWhisper/typewhisper-mac)** - Local speech-to-text for MacOS
-- 🖌️ **[Open CoDesign](https://github.com/OpenCoworkAI/open-codesign)** - Open-source Claude Design alternative
+- **[CovenCave]**(https://github.com/OpenCoven/coven-cave)**
 
 </p>
 

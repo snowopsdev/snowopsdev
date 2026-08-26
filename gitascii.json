@@ -20431,14 +20431,6 @@
       "locked": false,
       "visible": true,
       "zIndex": 4
-    },
-    {
-      "instanceId": "widget_1787706801869",
-      "widgetId": "asciiprofile-heatmap",
-      "name": "Asciiprofile-heatmap Widget",
-      "position": {
-        "x": 10,
-        "y": 516
       },
       "size": {
         "width": 780,

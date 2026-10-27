@@ -45,7 +45,7 @@ Ten years in search. Now I build the tools.<br>
 <b><a href="https://github.com/snowopsdev/b65-benchmarks">B65 Benchmarks</a></b>, 2026<br>
 <sub><i>llama.cpp, Python, and 32 GB of VRAM</i></sub>
 <p><sub>Seven rounds of local LLM benchmarks on Intel Arc Pro B65. SYCL vs Vulkan, raw runs included.</sub></p>
-<sub><!--revised:b65-benchmarks-->Last revised Oct 15<!--/revised--></sub>
+<sub><!--revised:b65-benchmarks-->Last revised Oct 26<!--/revised--></sub>
 </td>
 </tr>
 <tr>

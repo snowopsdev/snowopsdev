@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="196px" height="44px" viewBox="0 0 196 44">
+<title>X</title>
+<clipPath id="r"><rect width="196" height="44" rx="7"/></clipPath>
+<g clip-path="url(#r)">
+<rect width="196" height="44" fill="#0d1520"/>
+<rect y="41.5" width="196" height="2.5" fill="#7ee0b5"/>
+</g>
+<rect x="0.5" y="0.5" width="195" height="43" rx="6.5" fill="none" stroke="#1f2d3d"/>
+<g transform="translate(78.7 11.0)"><path d="M3 2.5h4.2l9.8 15H12.8z" fill="none" stroke="#7ee0b5" stroke-width="1.5" stroke-linejoin="round"/><path d="M17 2.5l-5.6 6.4M3 17.5l5.6-6.4" fill="none" stroke="#7ee0b5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="108.7" y="25.5" fill="#d8e3ee" font-size="13px" font-weight="600"
+ font-family="ConsolasFallback,Consolas,Menlo,'DejaVu Sans Mono',monospace"
+ textLength="8.6" lengthAdjust="spacingAndGlyphs">X</text>
+</svg>

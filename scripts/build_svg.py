@@ -298,6 +298,64 @@ def render(variant, mode, stats):
     return "\n".join(out) + "\n"
 
 
+# ------------------------------------------------------------------------------
+# Link buttons (one SVG each, so each can sit inside its own <a> in the README)
+# ------------------------------------------------------------------------------
+BUTTON_THEME = "shaded"   # which card theme the buttons match
+BTN_W, BTN_H = 196, 44
+# (name, label, accent color key in THEMES, icon)
+BUTTONS = [
+    ("portfolio", "PORTFOLIO", "key", "monitor"),
+    ("linkedin", "LINKEDIN", "value", "linkedin"),
+    ("x", "X", "add", "x"),
+    ("email", "EMAIL", "rm", "mail"),
+]
+
+
+def icon(kind, accent, bg):
+    """20x20 icon paths."""
+    s = f'fill="none" stroke="{accent}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"'
+    if kind == "monitor":
+        return (f'<rect x="1" y="2" width="18" height="12.5" rx="2" {s}/>'
+                f'<path d="M6.5 18.5h7M10 14.5v4M5 6l2.5 2.2L5 10.4M9.5 10.4h4.5" {s}/>')
+    if kind == "linkedin":
+        return (f'<rect x="0.5" y="0.5" width="19" height="19" rx="3.5" fill="{accent}"/>'
+                f'<g fill="{bg}"><circle cx="5.4" cy="5.1" r="1.6"/>'
+                f'<rect x="4.1" y="7.8" width="2.6" height="8.4"/>'
+                f'<path d="M8.8 7.8h2.5v1.2c.6-.9 1.6-1.4 2.8-1.4 2.1 0 3.1 1.3 3.1 3.7v4.9h-2.6'
+                f'v-4.4c0-1.2-.4-1.9-1.5-1.9s-1.7.8-1.7 1.9v4.4H8.8z"/></g>')
+    if kind == "x":
+        return (f'<path d="M3 2.5h4.2l9.8 15H12.8z" fill="none" stroke="{accent}" stroke-width="1.5" '
+                f'stroke-linejoin="round"/><path d="M17 2.5l-5.6 6.4M3 17.5l5.6-6.4" {s}/>')
+    if kind == "mail":
+        return (f'<rect x="1" y="3.5" width="18" height="13" rx="1.8" {s}/>'
+                f'<path d="M1.8 4.6l8.2 6.4 8.2-6.4" {s}/>')
+    raise ValueError(kind)
+
+
+def render_button(label, accent_key, kind, mode):
+    c = THEMES[BUTTON_THEME][mode]
+    accent = c[accent_key]
+    text_w = len(label) * 8.6
+    group_w = 20 + 10 + text_w
+    x0 = (BTN_W - group_w) / 2
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="{BTN_W}px" height="{BTN_H}px" viewBox="0 0 {BTN_W} {BTN_H}">
+<title>{escape(label.title())}</title>
+<clipPath id="r"><rect width="{BTN_W}" height="{BTN_H}" rx="7"/></clipPath>
+<g clip-path="url(#r)">
+<rect width="{BTN_W}" height="{BTN_H}" fill="{c['bg']}"/>
+<rect y="{BTN_H - 2.5}" width="{BTN_W}" height="2.5" fill="{accent}"/>
+</g>
+<rect x="0.5" y="0.5" width="{BTN_W - 1}" height="{BTN_H - 1}" rx="6.5" fill="none" stroke="{c['border']}"/>
+<g transform="translate({x0:.1f} {(BTN_H - 20) / 2 - 1:.1f})">{icon(kind, accent, c['bg'])}</g>
+<text x="{x0 + 30:.1f}" y="{BTN_H / 2 + 3.5:.1f}" fill="{c['text']}" font-size="13px" font-weight="600"
+ font-family="ConsolasFallback,Consolas,Menlo,'DejaVu Sans Mono',monospace"
+ textLength="{text_w:.1f}" lengthAdjust="spacingAndGlyphs">{escape(label)}</text>
+</svg>
+"""
+
+
 def main():
     cache = ROOT / "card" / "stats.json"
     if "--offline" in sys.argv:
@@ -312,6 +370,11 @@ def main():
         for mode in ("dark", "light"):
             p = ROOT / "card" / "svg" / f"{variant}_{mode}.svg"
             p.write_text(render(variant, mode, stats))
+            print("wrote", p.relative_to(ROOT))
+    for name, label, accent_key, kind in BUTTONS:
+        for mode in ("dark", "light"):
+            p = ROOT / "card" / "svg" / f"btn_{name}_{mode}.svg"
+            p.write_text(render_button(label, accent_key, kind, mode))
             print("wrote", p.relative_to(ROOT))
 
 

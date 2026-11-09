@@ -5,5 +5,43 @@
   "followers": 20,
   "commits": 1376,
   "add": 1689452,
-  "rm": 329137
+  "rm": 329137,
+  "loc_by_repo": {
+    "b65-benchmarks": [
+      312433,
+      1007
+    ],
+    "coven-mcp": [
+      23033,
+      811
+    ],
+    "datum": [
+      463652,
+      158222
+    ],
+    "dr-extension": [
+      4622,
+      804
+    ],
+    "loqui": [
+      690665,
+      104007
+    ],
+    "omarchy-iplay50-mini-pro": [
+      28914,
+      214
+    ],
+    "selara": [
+      98538,
+      23026
+    ],
+    "snowopsdev": [
+      61702,
+      41042
+    ],
+    "t3-things": [
+      5893,
+      4
+    ]
+  }
 }

@@ -107,15 +107,23 @@ def api(path, data=None):
         return r.status, (json.loads(body) if body else None)
 
 
-def fetch_stats():
-    q = """query($login:String!){user(login:$login){
+def fetch_stats(prev=None):
+    """Fetch live stats. `prev` is the last cached result: its per-repo line counts
+    stand in for repos whose contributor stats GitHub hasn't computed yet."""
+    q = """query($login:String!, $after:String){user(login:$login){
       followers{totalCount}
       repositoriesContributedTo(contributionTypes:[COMMIT,PULL_REQUEST,REPOSITORY]){totalCount}
-      repositories(ownerAffiliations:OWNER, privacy:PUBLIC, first:100){
-        totalCount nodes{name isFork stargazerCount}}}}"""
-    _, res = api("/graphql", {"query": q, "variables": {"login": USER}})
-    u = res["data"]["user"]
-    repos = u["repositories"]["nodes"]
+      repositories(ownerAffiliations:OWNER, privacy:PUBLIC, first:100, after:$after){
+        totalCount pageInfo{hasNextPage endCursor} nodes{name isFork stargazerCount}}}}"""
+    repos, after = [], None
+    while True:
+        _, res = api("/graphql", {"query": q, "variables": {"login": USER, "after": after}})
+        u = res["data"]["user"]
+        repos += u["repositories"]["nodes"]
+        page = u["repositories"]["pageInfo"]
+        if not page["hasNextPage"]:
+            break
+        after = page["endCursor"]
     stats = dict(repos=u["repositories"]["totalCount"],
                  contributed=u["repositoriesContributedTo"]["totalCount"],
                  stars=sum(r["stargazerCount"] for r in repos),
@@ -128,22 +136,39 @@ def fetch_stats():
         "{totalCommitContributions}" for y in years))
     _, res = api("/graphql", {"query": q})
     stats["commits"] = sum(v["totalCommitContributions"] for v in res["data"]["user"].values())
-    # Lines of code across own (non-fork) public repos.
+    # Lines of code across own (non-fork) public repos, kept per repo so a repo
+    # whose stats are still pending can fall back to its last known counts.
+    cached = (prev or {}).get("loc_by_repo", {})
+    loc, missing = {}, []
     for r in repos:
         if r["isFork"]:
             continue
+        name = r["name"]
         for _ in range(12):  # GitHub returns 202 while it computes the stats
-            status, data = api(f"/repos/{USER}/{r['name']}/stats/contributors")
-            if status == 200:
+            status, data = api(f"/repos/{USER}/{name}/stats/contributors")
+            if status in (200, 204):  # 204: empty repository
                 break
             time.sleep(3)
         else:
-            print(f"  ! stats not ready for {r['name']}, skipped", file=sys.stderr)
+            if name in cached:
+                print(f"  ! stats not ready for {name}, using cached counts", file=sys.stderr)
+                loc[name] = cached[name]
+            else:
+                missing.append(name)
             continue
+        add = rm = 0
         for c in data or []:
             if (c.get("author") or {}).get("login", "").lower() == USER.lower():
-                stats["add"] += sum(w["a"] for w in c["weeks"])
-                stats["rm"] += sum(w["d"] for w in c["weeks"])
+                add += sum(w["a"] for w in c["weeks"])
+                rm += sum(w["d"] for w in c["weeks"])
+        loc[name] = [add, rm]
+    if missing:
+        # Publishing now would replace complete totals with partial ones.
+        sys.exit(f"Contributor stats not ready (and not cached) for: {', '.join(missing)}. "
+                 "Not updating the card; the next run will retry.")
+    stats["add"] = sum(a for a, _ in loc.values())
+    stats["rm"] = sum(d for _, d in loc.values())
+    stats["loc_by_repo"] = dict(sorted(loc.items()))
     return stats
 
 
@@ -361,7 +386,7 @@ def main():
     if "--offline" in sys.argv:
         stats = json.loads(cache.read_text())
     else:
-        stats = fetch_stats()
+        stats = fetch_stats(json.loads(cache.read_text()) if cache.exists() else None)
         cache.parent.mkdir(exist_ok=True)
         cache.write_text(json.dumps(stats, indent=2) + "\n")
     print(stats)

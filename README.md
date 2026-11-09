@@ -1,3 +1,24 @@
+<!--
+  Profile card: card/svg/*.svg, rebuilt daily by .github/workflows/profile-card.yml.
+  Text lives in scripts/build_svg.py (SECTIONS). Other styles: swap "shaded" for "classic" or "sketch".
+-->
+<a href="https://github.com/snowopsdev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="card/svg/shaded_dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="card/svg/shaded_light.svg">
+    <img alt="AJ (snowopsdev): neofetch-style profile card with an ASCII portrait" src="card/svg/shaded_dark.svg">
+  </picture>
+</a>
+
+<p align="center">
+<a href="https://www.snowops.dev/"><picture><source media="(prefers-color-scheme: dark)" srcset="card/svg/btn_portfolio_dark.svg"><source media="(prefers-color-scheme: light)" srcset="card/svg/btn_portfolio_light.svg"><img alt="Portfolio" src="card/svg/btn_portfolio_dark.svg"></picture></a>
+<a href="https://www.linkedin.com/in/ajnieves"><picture><source media="(prefers-color-scheme: dark)" srcset="card/svg/btn_linkedin_dark.svg"><source media="(prefers-color-scheme: light)" srcset="card/svg/btn_linkedin_light.svg"><img alt="LinkedIn" src="card/svg/btn_linkedin_dark.svg"></picture></a>
+<a href="https://x.com/snowopsdev"><picture><source media="(prefers-color-scheme: dark)" srcset="card/svg/btn_x_dark.svg"><source media="(prefers-color-scheme: light)" srcset="card/svg/btn_x_light.svg"><img alt="X" src="card/svg/btn_x_dark.svg"></picture></a>
+<a href="mailto:aj@snowops.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="card/svg/btn_email_dark.svg"><source media="(prefers-color-scheme: light)" srcset="card/svg/btn_email_light.svg"><img alt="Email" src="card/svg/btn_email_dark.svg"></picture></a>
+</p>
+
+<br>
+
 <sub>SNOWOPS &nbsp;·&nbsp; SELECTED WORKS, 2026</sub>
 
 ### AJ Nieves

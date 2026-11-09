@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,Menlo,'DejaVu Sans Mono',monospace" width="1000px" height="566px" font-size="15px">
+<title>aj@snowops</title>
+<style>
+@font-face{src:local('Consolas'),local('Consolas Bold');font-family:'ConsolasFallback';font-display:swap;size-adjust:109%}
+.key{fill:#953800}.value{fill:#0a3069}.dots{fill:#c2cfde}.add{fill:#1a7f37}.rm{fill:#cf222e}.header{fill:#24292f;font-weight:bold}text,tspan{white-space:pre}
+</style>
+<rect width="1000px" height="566px" fill="#f6f8fa" rx="15" stroke="#d0d7de" stroke-width="1"/>
+<g fill="#24292f" font-size="12px" xml:space="preserve">
+<text x="22" y="40" textLength="374.4" lengthAdjust="spacingAndGlyphs">                      .                             </text>
+<text x="22" y="56" textLength="374.4" lengthAdjust="spacingAndGlyphs">                    &#x27;1!|lJJi!.                      </text>
+<text x="22" y="72" textLength="374.4" lengthAdjust="spacingAndGlyphs">                &#x27;|l1&amp;#&amp;@@M##HJtl!.                  </text>
+<text x="22" y="88" textLength="374.4" lengthAdjust="spacingAndGlyphs">             &#x27;;|}%@&amp;@kM&amp;%@H&amp;H%&amp;H&amp;kt1|               </text>
+<text x="22" y="104" textLength="374.4" lengthAdjust="spacingAndGlyphs">            &#x27;?J@&amp;@MM&amp;H##H#@##M#@@@H#Ht;             </text>
+<text x="22" y="120" textLength="374.4" lengthAdjust="spacingAndGlyphs">           &#x27;1k@M#HHH&amp;H#@JJJJJ%kxk&amp;#@HH&amp;t&#x27;           </text>
+<text x="22" y="136" textLength="374.4" lengthAdjust="spacingAndGlyphs">          ,xHMx}ktl|!;!}li,&#x27;,,&#x27;&#x27;:|}1k#H#t           </text>
+<text x="22" y="152" textLength="374.4" lengthAdjust="spacingAndGlyphs">         .j%%i |1?i|:,&#x27;.,&#x27;     .&#x27;:!!ilkH#:          </text>
+<text x="22" y="168" textLength="374.4" lengthAdjust="spacingAndGlyphs">          1&amp;k;:jxt}i|!;,,&#x27;.     .&#x27;,:!|?J@|          </text>
+<text x="22" y="184" textLength="374.4" lengthAdjust="spacingAndGlyphs">          !JJj1kxt1li:.&#x27;..     ..&#x27;&#x27;:!|?t&amp;!          </text>
+<text x="22" y="200" textLength="374.4" lengthAdjust="spacingAndGlyphs">        ,ijx?}}?1lii|,    ...    ..:!iilJ|          </text>
+<text x="22" y="216" textLength="374.4" lengthAdjust="spacingAndGlyphs">     .!1k&amp;MH|:,1%kk%Hk?;;:;||}tkJjtttjtik;          </text>
+<text x="22" y="232" textLength="374.4" lengthAdjust="spacingAndGlyphs">   .:}kJ&amp;&amp;kM? 1@H&amp;J%HMM#Jl !k@@@Hjttt1}|j&#x27; .        </text>
+<text x="22" y="248" textLength="374.4" lengthAdjust="spacingAndGlyphs">  ,i}jk%@k??! x#@@H@%tJ&amp;#l &#x27;??&amp;&amp;@HkH&amp;t|:i.;,        </text>
+<text x="22" y="264" textLength="374.4" lengthAdjust="spacingAndGlyphs"> &#x27;!l1jJ%@%}k; l?kJjt?lltk! .::i1t}||!;::|}!         </text>
+<text x="22" y="280" textLength="374.4" lengthAdjust="spacingAndGlyphs">.:|1jk%&amp;@J}&amp;, ,;;;:&#x27;&#x27;&#x27;|1l&#x27;  ,:&#x27;.,,&#x27;  .&#x27;;li!.        </text>
+<text x="22" y="296" textLength="374.4" lengthAdjust="spacingAndGlyphs"> ,l11xk&amp;#@}l|&#x27;??!&#x27;   &#x27;|i!.   :,     &#x27;,!!?;&#x27;         </text>
+<text x="22" y="312" textLength="374.4" lengthAdjust="spacingAndGlyphs"> :|l1x%H#@#}t&#x27;?ti,.  :x%Mk?}jj;     .,;|ki          </text>
+<text x="22" y="328" textLength="374.4" lengthAdjust="spacingAndGlyphs"> ,!}xJJJ%H@Mki11|,.,:;l%M##HJxl,..  &#x27;;|?%,          </text>
+<text x="22" y="344" textLength="374.4" lengthAdjust="spacingAndGlyphs">.&#x27;;l1txk&amp;&amp;HM&amp;itk?|1x%%%ktl?l1%&amp;#&amp;k1;|}?jk           </text>
+<text x="22" y="360" textLength="374.4" lengthAdjust="spacingAndGlyphs">  ,|l1k%%&amp;#@M%t%J1?l1xj1}l|!!i1?txj}j11Hl           </text>
+<text x="22" y="376" textLength="374.4" lengthAdjust="spacingAndGlyphs">   ;l1jj%H###M%H#x|:,,;i}11?l!:..!?1%%Mj            </text>
+<text x="22" y="392" textLength="374.4" lengthAdjust="spacingAndGlyphs">   &#x27;;}?1J&amp;&amp;HH@|1##kl|!!;!ii!:,&#x27;:|it@M#x&#x27;            </text>
+<text x="22" y="408" textLength="374.4" lengthAdjust="spacingAndGlyphs">    &#x27;!}jkJ%&amp;&amp;#!.x&amp;@#kjj1l;:!!i1jtJMMk;;.            </text>
+<text x="22" y="424" textLength="374.4" lengthAdjust="spacingAndGlyphs">    .!tkxxJJJ&amp;:.1JJH@@#HH%%%%HH@MMx|&#x27;.::            </text>
+<text x="22" y="440" textLength="374.4" lengthAdjust="spacingAndGlyphs"> .  ,ijk%Jkj1i &#x27;}11tx%HH@MMMM#Jkji,  .&#x27;;&#x27;}l         </text>
+<text x="22" y="456" textLength="374.4" lengthAdjust="spacingAndGlyphs"> .,!|ljx11}1k} &#x27;}}l}?tkxxk%Jtli|,.  ..&#x27;, |#%?};     </text>
+<text x="22" y="472" textLength="374.4" lengthAdjust="spacingAndGlyphs">&#x27;:!|?ti|}JHHM@1|l}|!!i}t?1?l||!,&#x27;  ...  ;HH%&amp;M%kjl;&#x27;</text>
+<text x="22" y="488" textLength="374.4" lengthAdjust="spacingAndGlyphs">|i1Jj?x#J@@HMMM&amp;j};::,&#x27;:;!;;;:,.  ..  &#x27;1@@HH@@#%%Jxx</text>
+<text x="22" y="504" textLength="374.4" lengthAdjust="spacingAndGlyphs">x&amp;Ht?J###M@##MMMM&amp;t!:.   .,;;:.  ..&#x27;!t#@#&amp;H%J#ktkJJJ</text>
+<text x="22" y="520" textLength="374.4" lengthAdjust="spacingAndGlyphs">%&amp;t?k%k&amp;#@@@#H@HJH@@Jtl:.  .,:&#x27;,i1x%####%J&amp;&amp;&amp;#%JkkkJ</text>
+</g><g fill="#24292f" xml:space="preserve">
+<text x="420" y="32" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="header">aj@snowops</tspan><tspan class="dots"> ———————————————————————————————————————————————————</tspan></text>
+<text x="420" y="52" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">OS</tspan>:<tspan class="dots"> ..................... </tspan><tspan class="value">macOS, Omarchy Linux, iOS, Android</tspan></text>
+<text x="420" y="72" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="dots"> ........................ </tspan><tspan class="value">12 years, 9 months, 11 days</tspan></text>
+<text x="420" y="92" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">Host</tspan>:<tspan class="dots"> .............................. </tspan><tspan class="value">SnowOpsHQ (snowops.dev)</tspan></text>
+<text x="420" y="112" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="dots"> ............... </tspan><tspan class="value">10 yrs in search, now building tools</tspan></text>
+<text x="420" y="132" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">IDE</tspan>:<tspan class="dots"> ................................. </tspan><tspan class="value">T3 Code, Orca, Cursor</tspan></text>
+<text x="420" y="172" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">Languages.Programming</tspan>:<tspan class="dots"> ......... </tspan><tspan class="value">TypeScript, Rust, Python, C</tspan></text>
+<text x="420" y="192" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">Languages.Computer</tspan>:<tspan class="dots"> ............... </tspan><tspan class="value">HTML, CSS, SQL, Markdown</tspan></text>
+<text x="420" y="212" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">Languages.Real</tspan>:<tspan class="dots"> .................................... </tspan><tspan class="value">English</tspan></text>
+<text x="420" y="252" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">Hobbies.Software</tspan>:<tspan class="dots"> .......... </tspan><tspan class="value">Local LLMs, AI Coding/Building,</tspan></text>
+<text x="420" y="272" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="dots">.............................................. </tspan><tspan class="value">Data Analysis</tspan></text>
+<text x="420" y="292" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">Hobbies.Hardware</tspan>:<tspan class="dots"> ............... </tspan><tspan class="value">GPU Benchmarking, Homelab,</tspan></text>
+<text x="420" y="312" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="dots">........... </tspan><tspan class="value">Retro Tech Revival, Workstation Setup Iterations</tspan></text>
+<text x="420" y="352" textLength="558" lengthAdjust="spacingAndGlyphs">- Contact<tspan class="dots"> ————————————————————————————————————————————————————</tspan></text>
+<text x="420" y="372" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">Email</tspan>:<tspan class="dots"> ...................................... </tspan><tspan class="value">aj@snowops.dev</tspan></text>
+<text x="420" y="392" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">X</tspan>:<tspan class="dots"> ............................................. </tspan><tspan class="value">@snowopsdev</tspan></text>
+<text x="420" y="412" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="dots"> ......................................... </tspan><tspan class="value">ajnieves</tspan></text>
+<text x="420" y="432" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">Web</tspan>:<tspan class="dots"> ........................................... </tspan><tspan class="value">snowops.dev</tspan></text>
+<text x="420" y="472" textLength="558" lengthAdjust="spacingAndGlyphs">- GitHub Stats<tspan class="dots"> ———————————————————————————————————————————————</tspan></text>
+<text x="420" y="492" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dots"> .... </tspan><tspan class="value">95</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">15</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="dots"> ................ </tspan><tspan class="value">6</tspan></text>
+<text x="420" y="512" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">Commits</tspan>:<tspan class="dots"> ................. </tspan><tspan class="value">1,376</tspan> | <tspan class="key">Followers</tspan>:<tspan class="dots"> ........... </tspan><tspan class="value">20</tspan></text>
+<text x="420" y="532" textLength="558" lengthAdjust="spacingAndGlyphs"><tspan class="dots">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="dots"> ........ </tspan><tspan class="value">1,360,315</tspan> ( <tspan class="add">1,689,452++</tspan>, <tspan class="rm">329,137--</tspan> )</text>
+</g></svg>

@@ -1,3 +1,17 @@
+<!--
+  Profile card: card/svg/*.svg, rebuilt daily by .github/workflows/profile-card.yml.
+  Text lives in scripts/build_svg.py (SECTIONS). Other styles: swap "shaded" for "classic" or "sketch".
+-->
+<a href="https://github.com/snowopsdev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="card/svg/shaded_dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="card/svg/shaded_light.svg">
+    <img alt="AJ (snowopsdev): neofetch-style profile card with an ASCII portrait" src="card/svg/shaded_dark.svg">
+  </picture>
+</a>
+
+<br>
+
 <sub>SNOWOPS &nbsp;·&nbsp; SELECTED WORKS, 2026</sub>
 
 ### AJ Nieves

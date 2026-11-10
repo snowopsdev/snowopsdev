@@ -32,7 +32,7 @@
 <b><a href="https://github.com/snowopsdev/loqui">Loqui</a></b>, 2026<br>
 <sub><i>Electron, C, and a microphone</i></sub>
 <p><sub>Local-first dictation, notes, and meetings, with a personal AI assistant. macOS and Linux.</sub></p>
-<sub><!--revised:loqui-->Last revised Oct 30<!--/revised--></sub>
+<sub><!--revised:loqui-->Last revised Nov 9<!--/revised--></sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/snowopsdev/selara"><img src="assets/framed/selara.webp" alt="Selara" width="380"></a>
@@ -50,7 +50,7 @@
 <b><a href="https://github.com/snowopsdev/datum">Datum</a></b>, 2026<br>
 <sub><i>TypeScript, Payload CMS, and an approval gate</i></sub>
 <p><sub>A governed content pipeline: research, generate, QA, then a person signs off.</sub></p>
-<sub><!--revised:datum-->Last revised Oct 22 &nbsp;·&nbsp; v0.8.0<!--/revised--></sub>
+<sub><!--revised:datum-->Last revised Nov 10 &nbsp;·&nbsp; v0.9.0<!--/revised--></sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/snowopsdev/b65-benchmarks"><img src="assets/framed/b65.png" alt="B65 Benchmarks" width="380"></a>

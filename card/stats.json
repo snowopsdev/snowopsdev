@@ -2,10 +2,10 @@
   "repos": 95,
   "contributed": 14,
   "stars": 6,
-  "followers": 20,
-  "commits": 1376,
-  "add": 1690795,
-  "rm": 329153,
+  "followers": 21,
+  "commits": 1446,
+  "add": 1702145,
+  "rm": 396296,
   "loc_by_repo": {
     "b65-benchmarks": [
       312433,
@@ -16,16 +16,16 @@
       811
     ],
     "datum": [
-      463652,
-      158222
+      474758,
+      225099
     ],
     "dr-extension": [
       4622,
       804
     ],
     "loqui": [
-      690665,
-      104007
+      690905,
+      104260
     ],
     "omarchy-iplay50-mini-pro": [
       28914,
@@ -36,8 +36,8 @@
       23026
     ],
     "snowopsdev": [
-      63045,
-      41058
+      63049,
+      41071
     ],
     "t3-things": [
       5893,

@@ -2,10 +2,10 @@
   "repos": 95,
   "contributed": 14,
   "stars": 6,
-  "followers": 21,
-  "commits": 1446,
-  "add": 1702145,
-  "rm": 396296,
+  "followers": 22,
+  "commits": 1611,
+  "add": 1732747,
+  "rm": 551282,
   "loc_by_repo": {
     "b65-benchmarks": [
       312433,
@@ -16,8 +16,8 @@
       811
     ],
     "datum": [
-      474758,
-      225099
+      505360,
+      380085
     ],
     "dr-extension": [
       4622,

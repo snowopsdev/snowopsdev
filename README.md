@@ -68,7 +68,7 @@
 <b><a href="https://github.com/snowopsdev/dr-extension">DR Lookup</a></b>, 2026<br>
 <sub><i>JavaScript, Chrome, and the Ahrefs API</i></sub>
 <p><sub>Domain Rating for any site, one click away, with a trail of the ones you checked.</sub></p>
-<sub><!--revised:dr-extension-->Last revised Sep 18 &nbsp;·&nbsp; v1.3.0<!--/revised--></sub>
+<sub><!--revised:dr-extension-->Last revised Nov 19 &nbsp;·&nbsp; v1.3.0<!--/revised--></sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://x.com/snowopsdev"><img src="assets/framed/in-preparation.png" alt="An empty frame: the next exhibit, in preparation" width="380"></a>

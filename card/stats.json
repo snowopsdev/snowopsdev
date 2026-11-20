@@ -2,10 +2,10 @@
   "repos": 95,
   "contributed": 14,
   "stars": 8,
-  "followers": 20,
-  "commits": 2006,
-  "add": 3887421,
-  "rm": 551316,
+  "followers": 19,
+  "commits": 2011,
+  "add": 3888515,
+  "rm": 551368,
   "loc_by_repo": {
     "b65-benchmarks": [
       2467107,
@@ -20,8 +20,8 @@
       380085
     ],
     "dr-extension": [
-      4622,
-      804
+      5716,
+      856
     ],
     "loqui": [
       690905,

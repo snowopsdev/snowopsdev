@@ -3,9 +3,9 @@
   "contributed": 14,
   "stars": 9,
   "followers": 18,
-  "commits": 2037,
-  "add": 3888515,
-  "rm": 551368,
+  "commits": 2139,
+  "add": 3894195,
+  "rm": 564095,
   "loc_by_repo": {
     "b65-benchmarks": [
       2467107,
@@ -24,8 +24,8 @@
       856
     ],
     "loqui": [
-      690905,
-      104260
+      696585,
+      116987
     ],
     "omarchy-iplay50-mini-pro": [
       28914,

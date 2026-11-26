@@ -32,7 +32,7 @@
 <b><a href="https://github.com/snowopsdev/loqui">Loqui</a></b>, 2026<br>
 <sub><i>Electron, C, and a microphone</i></sub>
 <p><sub>Local-first dictation, notes, and meetings, with a personal AI assistant. macOS and Linux.</sub></p>
-<sub><!--revised:loqui-->Last revised Nov 9<!--/revised--></sub>
+<sub><!--revised:loqui-->Last revised Nov 26<!--/revised--></sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/snowopsdev/selara"><img src="assets/framed/selara.webp" alt="Selara" width="380"></a>
